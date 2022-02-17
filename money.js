@@ -9,6 +9,5 @@ document.getElementById("login-button").addEventListener('click',function(){
     let Clothes = inputClothes.value;
     let sumExpenses =parseInt(Food) + parseInt(Rent) + parseInt(Clothes);
     //  console.log(sumExpenses);
-    totalExpenses.value = sumExpenses
-    //  totalExpenses.value = '';
+    totalExpenses.value = sumExpenses;  
 })
